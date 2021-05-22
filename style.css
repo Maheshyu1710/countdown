@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    height: 100vh;
+}
+
+body{
+    height: 100vh;
+    margin: auto;
+    text-align: center;
+    background-image: url('assets/danielle-eagle-beach.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family: 'Ubuntu',sans-serif;
+    color: #02475e;
+}
+
+body > h1{
+    font-size: 5rem;
+    text-shadow: 0 4px 8px gray;
+    margin-top: 1%;
+    color: #02475e;
+    margin-bottom: 0;
+}
+
+.time{
+    font-size: 4rem;
+    display: inline-block;
+    margin-right: 3%;
+    font-size: 4rem;
+    height: 100px;
+}
+
+.time >p{
+    font-size: 2rem;
+    margin-top: 0;
+}
+
+.time > h1{
+    margin-bottom: 0;
+}
+
+@media screen and (max-width : 720px) {
+    body > h1{
+        font-size: 3rem;
+        margin-top: 2%;
+    }
+
+    .time {
+        font-size: 1.7rem;
+    }
+
+    .time > p {
+        font-size: 1rem;
+    }
+}
